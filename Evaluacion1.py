@@ -42,36 +42,5 @@ while(True):
             while(True):
                 datEstu = str(input("Ingrese datos del estudiante: "))
                 dni = str(input("Ingrese DNI del estudiante: "))
-                dni = input("Ingresa exactamente 8 dígitos: ")
-                contador = 0
-                solo_digitos = True
-
-                for caracter in entrada:
-                contador += 1
-                if caracter < '0' or caracter > '9':
-                solo_digitos = False
-
-                if contador == 8:
-                if solo_digitos:
-                    print("Entrada válida:", entrada)
-                else:
-                    print("Entrada inválida. Solo debe contener números.")
-                else:
-                    print("Entrada inválida. Debe tener exactamente 8 caracteres.")
-
-            menu = int(input("""
-            ====== MENU DE OPCIONES ====== 
-            3. CALCULADORA
-            4. REPORTE TOTAL
-            5. SALIR DEL PROGRAMA
-            """))
-            if(menu == 3):
-                while(True):
-
-
-
-
-
-
-        
-
+                opcionGen = str(input("Ingrese Genero (M) (F): "))
+                lentes= str(input("Usa lentes "))
